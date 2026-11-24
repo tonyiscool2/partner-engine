@@ -1,0 +1,35 @@
+{
+  "deals": [
+    {
+      "id": "deal-1", "name": "Harbor Machine Shop", "industry": "Precision machining",
+      "city": "Tulsa", "state": "OK", "price": 1800000, "real_estate_value": 900000,
+      "check_min": 150000, "check_max": 500000, "target_close": "2030-01-15",
+      "seeking": ["Buyer of the business", "Credit sponsor"],
+      "structures": ["Assume seller financing", "SBA"], "risk": "Moderate",
+      "equity_track": "None"
+    },
+    {
+      "id": "deal-2", "name": "Lakeside Laundromat", "industry": "Laundromat",
+      "city": "Dayton", "state": "OH", "price": 650000,
+      "check_min": 50000, "check_max": 150000, "target_close": null,
+      "seeking": ["Owner operator partner", "JV or co GP partner"],
+      "structures": ["Conventional"], "risk": "Conservative",
+      "equity_track": "None"
+    }
+  ],
+  "partners": [
+    {
+      "id": "p-1", "name": "Example Buyer", "source": "Web form",
+      "text": "I have owned two machine shops over 15 years and want to buy the Harbor shop. I can bring 250k and I am open to seller financing. Ready to move now.",
+      "form": { "capital": "$150K to $500K", "timeline": "Ready now" }
+    },
+    {
+      "id": "p-2", "name": "Example Lender", "source": "Email",
+      "text": "We lend private money on small business acquisitions with real estate. Happy to look at the Lakeside deal. We can fund over a million."
+    },
+    {
+      "id": "p-3", "name": "Example Agency", "source": "Email",
+      "text": "Our agency offers SEO packages that will triple your leads."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "partner-engine",
+  "version": "0.1.0",
+  "description": "Sorts inbound partner inquiries, matches them to open deals, and checks deal posts for compliance problems.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "sort:mock": "node partner-engine.ts sort examples/sort-in.json out.json --mock",
+    "posts:mock": "node partner-engine.ts posts examples/posts-in.json out.json --mock",
+    "sort": "node --env-file=.env.local partner-engine.ts sort",
+    "posts": "node --env-file=.env.local partner-engine.ts posts"
+  },
+  "engines": { "node": ">=22.6" },
+  "dependencies": { "ai": "^7.0.114" }
+}
